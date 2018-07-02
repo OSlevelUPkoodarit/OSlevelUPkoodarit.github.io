@@ -12,15 +12,18 @@
 			</nav>
 			<div class="fullcontent">
 				<div class="sidepanel"> 
+				{% if site.posts != empty %}
 					<h2>Most recent materials</h2>
+					
 					<ol class="posts">
 
-	  					{% for post in site.posts %}
+	  					{% for post in site.posts limit:5 %}
 	    				<li>
 	    					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></br>
 	    				</li>
 	  					{% endfor %}
 					</ol>
+					{% endif %}
 					<h2>Contact information</h2>
 					{% include footer.html %}
 
