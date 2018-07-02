@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<html>
+	{% include header.html %}
+		
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+	        		<li><a href="/material">Materials</a></li>
+	        		<li><a href="/creators">About writers</a></li>
+	    		</ul>
+			</nav>
+			<div class="fullcontent">
+				<div class="sidepanel"> 
+					<h2>Most recent materials</h2>
+					<ul class="posts">
+
+	  					{% for post in site.posts %}
+	    				<li>
+	    					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></br>
+	    				</li>
+	  					{% endfor %}
+					</ul>
+
+				</div>
+				<div class="container">
+				
+				{{ content }}
+				
+				</div><!-- /.container -->
+			</div>
+			{% include footer.html %}
+		</body>
+	</html>
