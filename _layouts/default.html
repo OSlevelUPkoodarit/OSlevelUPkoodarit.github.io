@@ -13,14 +13,14 @@
 			<div class="fullcontent">
 				<div class="sidepanel"> 
 					<h2>Most recent materials</h2>
-					<ul class="posts">
+					<ol class="posts">
 
 	  					{% for post in site.posts %}
 	    				<li>
 	    					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></br>
 	    				</li>
 	  					{% endfor %}
-					</ul>
+					</ol>
 					<h2>Contact information</h2>
 					{% include footer.html %}
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 ---
 
 The following series will be implemented using Python and R as programming languages. Following steps will giude you through setting up them into your computer and installing basic libraries needed to get your hands dirty.
