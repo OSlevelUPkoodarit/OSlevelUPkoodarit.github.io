@@ -17,7 +17,7 @@ jekyll serve --livereload
 ````
 This starts the webserver so that one can see how the page looks in http://localhost:4000. Livereload option means that changes in files can be seen immediately. 
 
-New materials should be located under directory _posts. Each teaching material is in its file, which should be named like yyyy-MM-dd-material-name.md and include lines 
+New materials should be located under directory _posts. Each teaching material is in its file, which should be named like yyyy-MM-dd-material-name.md where yyyy means current year, MM means current month and dd means current day. The file should include lines 
 ````
 ---
 layout: default
