@@ -47,15 +47,21 @@ ul.posts p {
     line-height: 1.2em;
 }
 
+div.highlighter-rouge {
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+
 .fullcontent {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
 
 .fullcontent .sidepanel {
-    grid-column: 3/4;
+    grid-column: 5/6;
     grid-row: 1;
     border: 1px;
     border-style:solid;
@@ -63,7 +69,7 @@ ul.posts p {
 }
 
 .fullcontent .container {
-    grid-column: 1/3;
+    grid-column: 1/5;
     grid-row: 1;
     border: 1px;
     border-style:solid;
