@@ -15,4 +15,13 @@ and after that
 ````
 jekyll serve --livereload
 ````
+This starts the webserver so that one can see how the page looks in http://localhost:4000. Livereload option means that changes in files can be seen immediately. 
+
+New materials should be located under directory _posts. Each teaching material is in its file, which should be named like yyyy-MM-dd-material-name.md and include lines 
+````
+---
+layout: default
+---
+````
+at the beginning of the file so that the layout is right. File content should be markdown (markdown cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
 
