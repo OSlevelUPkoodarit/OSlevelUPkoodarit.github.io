@@ -2,11 +2,9 @@
 layout: default
 ---
 
-# Installations
-
 In the future training we will assume that you have these things installed. That's because examples in the materials will be  implemented using Python and R as programming languages. Following steps will guide you through setting up them into your computer and installing basic libraries needed to get your hands dirty.
 
-One can select wanted section in list below. 
+Select the relevant section below:
 * Python
     * [MacOS X](#macos)
     * [Linux Ubuntu](#linux)
@@ -22,8 +20,6 @@ One can select wanted section in list below.
 
 ## Installing Python
 We will use Python version 3 in our examples. They can be implemented with Python 2.7, too, but it is not recommended as there are some differences between the versions.
-
-If you already have things ready for Python and want to 
 
 ### MacOS 
 First we need to install _Homebrew_. Homebrew is a package manager for MacOS and is very useful when developing stuff on your computer. In this tutorial we only use it for installing Python and pip, though.

@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 	<html>
 	{% include header.html %}
-		
-		<body>
-			<nav>
+		<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 	        		<li><a href="/material">Materials</a></li>
 	        		<li><a href="/creators">About writers</a></li>
 	    		</ul>
 			</nav>
+		<body>
+			<div class="banner">
+				<div class="bannertext">
+					<b>Ompeluseura LevelUP Koodarit</b>
+				</div>
+				
+			</div>
+			
 			<div class="fullcontent">
-				<div class="sidepanel"> 
+				<!--<div class="sidepanel"> 
 				{% if site.posts != empty %}
 					<h2>Most recent materials</h2>
 					
@@ -27,7 +33,7 @@
 					<h2>Contact information</h2>
 					{% include footer.html %}
 
-				</div>
+				</div>-->
 				<div class="container">
 				
 				{{ content }}

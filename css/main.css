@@ -1,23 +1,47 @@
 body {
-    margin: 60px auto;
-    width: 90%;
+    width: 100%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background-color: white;
 }
+
+.banner {
+    height: 200px;
+    background-image: url("testimage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannertext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    margin: 10px;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+nav a {
     text-decoration: none;
-    color: #999;
+    color: black;
 }
 a:hover {
     text-decoration: underline;
+}
+
+a {
+    color: #A0A0A0;
 }
 h1 {
     font-size: 2.5em;
@@ -31,6 +55,8 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    width: 20%;
+    margin:5px;
 }
 
 ul.posts { 
@@ -42,6 +68,28 @@ ul.posts li {
     list-style: none;
 }
 
+a.boxlink {
+    text-decoration: none;
+}
+
+.postsgrid { 
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(175px, auto);
+}
+
+.box {
+    padding: 80px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+a.box {
+    display:block;
+}
+
 ul.posts p {
     font-size: 1em;
     line-height: 1.2em;
@@ -51,6 +99,7 @@ div.highlighter-rouge {
     background-color: black;
     color:white;
     padding:10px;
+    overflow-x:scroll;
 }
 
 .fullcontent {
@@ -58,20 +107,20 @@ div.highlighter-rouge {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    height: 100%;
 }
 
 .fullcontent .sidepanel {
     grid-column: 5/6;
     grid-row: 1;
-    border: 1px;
-    border-style:solid;
     padding: 10px;
+    background-color: #F3F3F3;
 }
 
 .fullcontent .container {
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 1;
-    border: 1px;
-    border-style:solid;
     padding: 10px;
+    background-color: #F3F3F3;
 }
+
