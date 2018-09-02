@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
 body {
     width: 100%;
@@ -88,7 +89,7 @@ a {
 }
 
 .content a {
-    color: black;
+    color: #363636;
     font-family: "Raleway", sans-serif;
 }
 
@@ -97,7 +98,7 @@ a {
 }
 
 .tabs a {
-    font-family: "BlinkMacSystemFont", sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     color: black;
 }
 
@@ -217,4 +218,3 @@ div.highlighter-rouge {
 i:hover {
  color: rgb(212, 195, 181);
 }
-
