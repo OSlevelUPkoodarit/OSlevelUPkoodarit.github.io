@@ -5,16 +5,22 @@
 body {
     width: 100%;
     font-family: 'Nunito', sans-serif;
-    background-color: #99B898;
+    background-color: rgba(153, 184, 152, 0.850);
 }
 
 .banner {
     /*background-image: url("adult-ai-artificial-intelligence-1020325.jpg");*/
     background:
-    url('adult-ai-artificial-intelligence-1020325.jpg');
+    
+    linear-gradient(
+      rgba(255, 255, 255, 0.01), 
+      rgba(153, 184, 152, 0.850)
+    ),
+    url('adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
     overflow: hidden;
+    /*border: 2px solid rgba(153, 184, 152, 1)*/
 }
 
 .bannertext {
@@ -91,7 +97,7 @@ a.boxlink {
 
 .postsgrid { 
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(175px, auto);
 }
@@ -101,6 +107,36 @@ a.boxlink {
     background-color: black;
     color:white;
     text-align: center;
+}
+
+.postbox {
+    background:
+    
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    
+    url('code-coding-computer-270373.jpg');
+    font-size: 3vw;
+    font-family: 'Permanent Marker', sans-serif;
+    background-size: cover;
+    padding: 80px;
+    align-content: center;
+    margin: 5% 20%;
+    color: white;
+    border-radius: 15px 50px 30px;
+    /*border: 2px solid rgba(107, 129, 106, 0.8);*/
+}
+
+.postbox:hover {
+    background:
+    url('code-coding-computer-270373.jpg'),
+    linear-gradient(
+      rgba(160, 160, 160, 0.7), 
+      rgba(160, 160, 160, 0.7)
+    );
+    background-size: cover;
 }
 
 a.box {

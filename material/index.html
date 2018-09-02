@@ -8,12 +8,12 @@ title: Materials
 		No materials yet!
 		{% endif %}
 		{% if site.posts != empty %}
-		<div class="postsgrid">
+		<div>
 			{% for post in site.posts %}
 			<a href="{{ post.url }}" title="{{ post.title }}" class="boxlink">
-				<div class="box">
+				<article class="postbox">
 					{{ post.title }}
-			</div>
+				</article>
 			</a>
 			{% endfor %}
 		</ul>
