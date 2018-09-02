@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 title: About writers
 permalink: /creators/
 ---

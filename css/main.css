@@ -6,16 +6,17 @@ body {
     width: 100%;
     font-family: 'Nunito', sans-serif;
     background-color: rgba(153, 184, 152, 0.850);
+
 }
 
 .banner {
     background:
-    /*
+    
     linear-gradient(
-      rgba(255, 255, 255, 0.01), 
-      rgba(153, 184, 152, 0.850)
+      rgba(255, 255, 255, 0),
+      70%,
+      rgba(255, 255, 255, 1)
     ),
-    */
     url('adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
@@ -27,14 +28,14 @@ body {
 .banner-gradient {
     background:
     linear-gradient(
-      rgba(255, 255, 255, 0.01), 
+      rgba(255, 255, 255, 0.01),
+      70%,
       rgba(153, 184, 152, 0.850)
     ),
     url('adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
     overflow: hidden;
-    background-position: -10%;
 }
 
 .bannertext {
@@ -140,6 +141,7 @@ a.boxlink {
     margin: 5% 20%;
     color: white;
     border-radius: 15px 50px 30px;
+    box-shadow: 3px 10px 15px rgba(128, 128, 128, 0.692);
     /*border: 2px solid rgba(107, 129, 106, 0.8);*/
 }
 
