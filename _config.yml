@@ -24,6 +24,11 @@ github_username:  annisall
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
 theme: minima
 plugins:
   - jekyll-feed

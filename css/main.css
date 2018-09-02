@@ -1,32 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
 body {
     width: 100%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /*background-color: rgba(153, 184, 152, 0.850);*/
     background-color: white;
 }
 
 .banner {
-    height: 200px;
-    background-image: url("testimage.jpg");
+    background:
+    
+    linear-gradient(
+      rgba(255, 255, 255, 0),
+      70%,
+      rgba(255, 255, 255, 1)
+    ),
+    url('adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
+    overflow: hidden;
+    background-position: -10%;
+    /*border: 2px solid rgba(153, 184, 152, 1)*/
+}
+
+.banner-gradient {
+    background:
+    /*
+    linear-gradient(
+      rgba(242, 216, 194, 0),
+      80%,
+      rgba(242, 216, 194, 1)
+    ),
+    /*
+    linear-gradient(
+      rgba(255, 255, 255, 0.01),
+      80%,
+      rgba(153, 184, 152, 0.850)
+    ),
+    */
+    url('adult-business-communication-1181253_2.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .bannertext {
     text-align: center;
     position: absolute;
-    top: 50%;
+    font-family: 'Permanent Marker', sans-serif;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 50px;
+    color: black;
+    font-size: 5vw;
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Nunito', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    margin: 10px;
+
 }
 nav ul li, footer ul li {
     display: inline;
@@ -36,27 +71,42 @@ nav a {
     text-decoration: none;
     color: black;
 }
-a:hover {
-    text-decoration: underline;
-}
 
 a {
     color: #A0A0A0;
 }
-h1 {
-    font-size: 2.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+.content {
+    color: #363636;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: "Raleway", sans-serif;
 }
-p {
-    font-size: 1.2em;
-    line-height: 1.4em;
-    color: #333;
+
+.content h1, h2, h3, h4, h5, h6 {
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
 }
+
+.content a {
+    color: #363636;
+    font-family: "Raleway", sans-serif;
+}
+
+.content a:hover {
+    color: rgb(212, 195, 181);
+}
+
+.tabs a {
+    font-family: "Permanent Marker", sans-serif;
+    color: black;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    width: 20%;
-    margin:5px;
+    width: 100%;
+    background-color: #FECEA8;
 }
 
 ul.posts { 
@@ -73,8 +123,8 @@ a.boxlink {
 }
 
 .postsgrid { 
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(175px, auto);
 }
@@ -84,6 +134,37 @@ a.boxlink {
     background-color: black;
     color:white;
     text-align: center;
+}
+
+.postbox {
+    background:
+    
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    
+    url('code-coding-computer-270373.jpg');
+    font-size: 3vw;
+    font-family: 'Permanent Marker', sans-serif;
+    background-size: cover;
+    padding: 80px;
+    align-content: center;
+    margin: 5% 20%;
+    color: white;
+    border-radius: 15px 50px 30px;
+    box-shadow: 3px 10px 15px rgba(128, 128, 128, 0.692);
+    /*border: 2px solid rgba(107, 129, 106, 0.8);*/
+}
+
+.postbox:hover {
+    background:
+    url('code-coding-computer-270373.jpg'),
+    linear-gradient(
+      rgba(160, 160, 160, 0.7), 
+      rgba(160, 160, 160, 0.7)
+    );
+    background-size: cover;
 }
 
 a.box {
@@ -110,6 +191,10 @@ div.highlighter-rouge {
     height: 100%;
 }
 
+.maintabs {
+    opacity: 1;
+}
+
 .fullcontent .sidepanel {
     grid-column: 5/6;
     grid-row: 1;
@@ -124,3 +209,12 @@ div.highlighter-rouge {
     background-color: #F3F3F3;
 }
 
+.profile-pic {
+    border-radius: 50%;
+    width: 18vw;
+    padding: 20px;
+}
+
+i:hover {
+ color: rgb(212, 195, 181);
+}

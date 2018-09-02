@@ -20,7 +20,7 @@ This starts the webserver so that one can see how the page looks in http://local
 Drafts of new materials can be located under directory _drafts. If one wishes to see them locally, one should add option --drafts when starting the server. When it is ready for publishing, it should be located under directory _posts. Each published teaching material is in its file and the file should be named like yyyy-MM-dd-material-name.md where yyyy means current year, MM means current month and dd means current day. The file should include lines 
 ````
 ---
-layout: default
+layout: post
 ---
 ````
 at the beginning of the file so that the layout is right. File content should be markdown (markdown cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
