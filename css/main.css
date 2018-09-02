@@ -9,9 +9,23 @@ body {
 }
 
 .banner {
-    /*background-image: url("adult-ai-artificial-intelligence-1020325.jpg");*/
     background:
-    
+    /*
+    linear-gradient(
+      rgba(255, 255, 255, 0.01), 
+      rgba(153, 184, 152, 0.850)
+    ),
+    */
+    url('adult-business-communication-1181253_2.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-position: -10%;
+    /*border: 2px solid rgba(153, 184, 152, 1)*/
+}
+
+.banner-gradient {
+    background:
     linear-gradient(
       rgba(255, 255, 255, 0.01), 
       rgba(153, 184, 152, 0.850)
@@ -20,7 +34,7 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    /*border: 2px solid rgba(153, 184, 152, 1)*/
+    background-position: -10%;
 }
 
 .bannertext {
@@ -161,6 +175,10 @@ div.highlighter-rouge {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     height: 100%;
+}
+
+.maintabs {
+    opacity: 1;
 }
 
 .fullcontent .sidepanel {

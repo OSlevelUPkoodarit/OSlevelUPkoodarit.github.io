@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: main
 ---
 
 ## Some things
