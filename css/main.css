@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:300');
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 body {
     width: 100%;
-    font-family: 'Nunito', sans-serif;
-    background-color: rgba(153, 184, 152, 0.850);
-
+    /*background-color: rgba(153, 184, 152, 0.850);*/
+    background-color: white;
 }
 
 .banner {
@@ -27,11 +25,19 @@ body {
 
 .banner-gradient {
     background:
+    /*
+    linear-gradient(
+      rgba(242, 216, 194, 0),
+      80%,
+      rgba(242, 216, 194, 1)
+    ),
+    /*
     linear-gradient(
       rgba(255, 255, 255, 0.01),
       80%,
       rgba(153, 184, 152, 0.850)
     ),
+    */
     url('adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
@@ -69,26 +75,31 @@ a {
     color: #A0A0A0;
 }
 
+.content {
+    color: #363636;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.content h1, h2, h3, h4, h5, h6 {
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+}
+
 .content a {
-    color: #2A363B;
+    color: black;
+    font-family: "Raleway", sans-serif;
 }
 
 .content a:hover {
-    color: #A0A0A0;
+    color: rgb(212, 195, 181);
 }
 
-/*
-h1 {
-    font-size: 5.5em;
-    font-family: 'Nunito', sans-serif;
+.tabs a {
+    font-family: "BlinkMacSystemFont", sans-serif;
+    color: black;
 }
-
-p {
-    font-size: 1.2em;
-    line-height: 1.4em;
-    color: #333;
-}
-*/
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -201,5 +212,9 @@ div.highlighter-rouge {
     border-radius: 50%;
     width: 18vw;
     padding: 20px;
-  }
+}
+
+i:hover {
+ color: rgb(212, 195, 181);
+}
 
