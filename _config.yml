@@ -23,11 +23,9 @@ twitter_username: annisalli
 github_username:  annisall
 
 # Build settings
+# Build settings
 markdown: kramdown
 highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
 
 theme: minima
 plugins:

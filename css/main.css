@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
+@import url(syntax.css);
+
 body {
     width: 100%;
     /*background-color: rgba(153, 184, 152, 0.850);*/
@@ -176,9 +178,8 @@ ul.posts p {
     line-height: 1.2em;
 }
 
+
 div.highlighter-rouge {
-    background-color: black;
-    color:white;
     padding:10px;
     overflow-x:scroll;
 }
