@@ -78,6 +78,13 @@ a {
     color: #A0A0A0;
 }
 
+.narrow {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    vertical-align: middle;
+}
+
 .content {
     color: #363636;
     font-weight: 500;
