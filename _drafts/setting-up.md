@@ -3,49 +3,25 @@ layout: post
 ---
 # Setting up
 
-In the future training sessions we will assume that you have these things installed. That's because examples in the materials will be implemented using Python as programming language. Following steps will guide you through setting up them into your computer and installing basic libraries needed to get your hands dirty.
+This page lists things that we assume you have installed when you come to Data Science Python -session, and also for data science sessions after that. We strongly recommend installing Anaconda, since it has all the needed packages and Python, but if you wish, you can also just install Miniconda and then packages manually. *This is only recommended if you are familiar with command line and installing things with it!* Please select latest Python versions available.
 
-Select the relevant section below:
-* [Python](#installing-python)
-    * [MacOS X](#macos)
-    * [Linux Ubuntu](#linux)
-    * [Windows](#windows)
-* [Anaconda](#installing-anaconda)
-    * [MacOS X](#macos-1)
-    * [Linux Ubuntu](#linux-1)
-    * [Windows](#windows-1)
+So you should install either 
+* Anaconda or
+* Miniconda + Jupyter Notebook
 
-## Installing Python
-We will use Python version 3 in our examples. They can be implemented with Python 2.7, too, but it is not recommended as there are some differences between the versions.
+Anaconda installation guide can be found [**here**](http://docs.anaconda.com/anaconda/install/). Note that you don't need to install Visual Studio Code if you don't want to. We will use Jupyter Notebook so no need for Visual Studio.
 
-### MacOS 
-First we need to install _Homebrew_. Homebrew is a package manager for MacOS and is very useful when developing stuff on your computer. In this tutorial we only use it for installing Python and pip, though.
+Miniconda installer can be found [**here**](https://conda.io/miniconda.html).
 
-Installing Homebrew happens with following command on terminal:
-
+For Linux and Mac OS X miniconda installer downloads an .sh-file which needs to be run. After the miniconda is installed, you need to install jupyter with command 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+conda install jupyter
 ```
 
-and then with Homebrew one can install _Python 3_ with
-
+When Jupyter is installed with miniconda, Jupyter can be started with
 ```
-brew install python3
+jupyter notebook
 ```
 
-This command installs _Python 3_ and _pip_, which is package manager for Python. We will install needed Python libraries with it.
+If you installed Anaconda, you can just run Anaconda programme and start Jupyter Notebook from there.
 
-
-### Linux
-
-### Windows
-
-## Installing Anaconda
-Next thing we want to do is install anaconda. Anaconda is a platform for developing data science solutions and includes the most popular packages for Python. We then need to install only anaconda instead of installing multiple libraries and setting up virtual environment ourselves.
-
-### MacOS 
-
-
-### Linux
-
-### Windows
