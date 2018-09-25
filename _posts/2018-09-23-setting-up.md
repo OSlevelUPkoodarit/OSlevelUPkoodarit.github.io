@@ -4,7 +4,7 @@ layout: post
 
 # Setting up
 
-This page lists things that we assume you have installed when you come to the Data Science Python -session, and also for data science sessions after that. We strongly recommend installing Anaconda, since it has all the needed packages and Python, but if you wish, you can also just install Miniconda and then packages manually. <em>This is only recommended if you are familiar with command line and installing things with it!</em> Please select latest Python versions available.
+This page lists things that we assume you have installed when you come to the Data Science Python -session, and also for data science sessions after that. We strongly recommend installing Anaconda, since it has all the needed packages and Python, but if you wish, you can also just install Miniconda and then packages manually. <em>This is only recommended if you are familiar with command line and installing things with it!</em> Please select the latest Python versions available.
 
 So you should install either
 * Anaconda  or
@@ -15,7 +15,7 @@ Anaconda installation guide can be found [**here**](http://docs.anaconda.com/ana
 
 Miniconda installer can be found [**here**](https://conda.io/miniconda.html).
 
-For Linux and Mac OS X miniconda installer downloads a .sh-file which needs to be run. After the miniconda is installed, you need to install jupyter with command
+For Linux and Mac OS X miniconda installer downloads a .sh-file which needs to be run. After the miniconda is installed, you need to install Jupyter with command
 ```
 conda install jupyter
 ```
