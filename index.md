@@ -5,7 +5,7 @@
 layout: home
 ---
 
-LevelUP Koodarit was found in May 2017. Vlada, the founder of the group, was looking for a job in IT after graduation, but the problem was that she hadn’t studied anything IT-related. It was then that she decided to learn on her own. 
+LevelUP Koodarit was founded in May 2017. Vlada, the founder of the group, was looking for a job in IT after graduation, but the problem was that she hadn’t studied anything IT-related. It was then that she decided to learn on her own. 
 
 Studying alone was very hard, so Vlada started looking for others like her and some coding events. She noticed that there were some coding courses and events in Helsinki and also found some related groups and pages on Facebook. There wasn’t any group that was promoting long-term learning in form of support and active community, though, and that’s when she created LevelUP Koodarit. 
 Our goal is to support learning to code, organising events and sharing materials.
