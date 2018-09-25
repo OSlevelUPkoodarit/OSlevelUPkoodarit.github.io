@@ -12,4 +12,4 @@ Our goal is to support learning to code, organising events and sharing materials
 
 After founding the group there has been several excursions to companies in IT and get-togethers with group members. Collaboration with Ohjelmistoyrittäjät ry resulted in Mimmit koodaa and more information about Mimmit koodaa can be found [**here**](https://ohjelmistoyrittajat.fi/mimmitkoodaa/).
 
-*If you find some typos or better things to do something on the site, feel free to fork the repo [**on GitHub**](https://github.com/OSlevelUPkoodarit/OSlevelUPkoodarit.github.io) and create a pull request!*
+*If you find some typos or better ways of doing something on the site, feel free to fork the repo [**on GitHub**](https://github.com/OSlevelUPkoodarit/OSlevelUPkoodarit.github.io) and create a pull request!*
