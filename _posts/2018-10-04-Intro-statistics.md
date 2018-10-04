@@ -3,7 +3,7 @@ layout: post
 ---
 # Tilastotieteen perusteita
 
-### Voit ladata materiaalin [tästä Jupyter Notebookina](../../../notebooks/intro_statistics.ipynb)
+### Voit ladata materiaalin [tästä Jupyter Notebookina]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/Intro_statistics.ipynb %})
 
 ```python
 import numpy as np
