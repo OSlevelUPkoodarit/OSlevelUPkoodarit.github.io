@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-# Tilastotieteen perusteita
+# Tilastotieteen perusteita (Pythonilla)
 
 ### Voit ladata materiaalin [tästä Jupyter Notebookina]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/Intro_statistics.ipynb %})
 
@@ -12,8 +12,6 @@ from IPython.display import display, Math, Latex
 import matplotlib as mp
 import scipy
 ```
-
-## Tilastotieteen perusteita (Pythonilla)
 
 ![Data Science Picture](../../../css/download.png)
 
