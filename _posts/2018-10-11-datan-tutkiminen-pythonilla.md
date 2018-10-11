@@ -98,7 +98,7 @@ df=pd.read_csv('path/to/file.csv')
 
 ## Datan importtaaminen ja tutkiminen
 
-Luetaan ensin data sisään tiedostosta. Kyseinen tiedosto sisältää keinotekoista dataa, ja voit luoda sen itsellesi ajamalla tietokoneellasi [tämän Jupyter Notebookin ](dataset_generator.ipynb).
+Luetaan ensin data sisään tiedostosta. Kyseinen tiedosto sisältää keinotekoista dataa, ja voit luoda sen itsellesi ajamalla tietokoneellasi [tämän Jupyter Notebookin ]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/dataset_generator.ipynb %}).
 
 
 ```python
