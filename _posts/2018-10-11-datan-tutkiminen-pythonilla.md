@@ -424,6 +424,6 @@ df.isna().sum()
 
 Mietitäänpä tarkemmin mitä ylempänä tapahtuu. df on DataFrame-tyyppinen muuttuja. DataFramella on funktio *isna*. joka palauttaa uuden DataFramen, joka sisältää jokaiselle arvolle DataFramessa tiedon siitä, onko kyseessä puuttuva arvo. Isna-funktion palauttamalle DataFramelle voidaan kutsua *sum*-funktiota, joka tässä tapauksessa laskee yhteen sarakkeessa esiintyvien True-arvojen määrän. Jos sarakkeissa olisi lukuja, se laskisi niiden summan.
 
-Seuraavaksi voidaan tehdä muutama harjoitus. Se tapahtuu lataamalla omalle tietokoneelle [tämä Jupter Notebook](Python_exercise.ipynb). Tähän teoriaosuuteen liittyy kyseisen notebookin osio 1.
+Seuraavaksi voidaan tehdä muutama harjoitus. Se tapahtuu lataamalla omalle tietokoneelle [tämä Jupter Notebook]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/Python_exercise.ipynb %}). Tähän teoriaosuuteen liittyy kyseisen notebookin osio 1.
 
 

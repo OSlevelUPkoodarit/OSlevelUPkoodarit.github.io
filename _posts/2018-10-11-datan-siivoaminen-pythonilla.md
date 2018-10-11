@@ -370,6 +370,6 @@ df_features.head(20)
 
 Mukana on siis enää ikä, opintopisteiden määrä ja sukupuoli. Kaikki ne ovat numeerisissa muodossa, joten teoriassa tämän perusteella voitaisiin muodostaa malli koneoppimisen avulla.
 
-Tähän teoriaosuuteen liittyy jo aiemmin ladatun tehtävän ([jos et ladannut sitä vielä, voit tehdä sen tästä](Python_exercise.ipynb)) osio 2.
+Tähän teoriaosuuteen liittyy jo aiemmin ladatun tehtävän ([jos et ladannut sitä vielä, voit tehdä sen tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/Python_exercise.ipynb %})) osio 2.
 
 
