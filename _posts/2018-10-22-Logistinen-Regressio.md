@@ -1,13 +1,13 @@
 ---
 layout: post
+title: Logistinen regressio
 ---
 
-Lataa tehtävät [täältä](https://oslevelupkoodarit.github.io/notebooks/logregTehtävä.ipynb). Tehtäviin julkaistaa malliratkaisut tilaisuuden jälkeen.
-
-Voit myös ladata nämä materiaalit muistiona [tästä](https://oslevelupkoodarit.github.io/notebooks/logistinenRegressio.ipynb).
-
-
 # Logistinen regressio: materiaali
+
+**Voit ladata materiaalin [tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/logregTehtava.ipynb %}). Tehtäviin julkaistaan malliratkaisut tilaisuuden jälkeen.**
+
+**Voit myös ladata nämä materiaalit muistiona [tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/logistinenRegressio.ipynb %}).**
 
 Tämän kerran tilaisuudessa tutustumme logistisen regression malliin. Logistista regressiota käytetään data-analyysissä luokitellun muuttujan ennustamiseen: Tarkastellaan esimerkkinä vaikkapa tilannetta, jossa vakuutusyhtiö tarjoaa asiakkaalle vakuutuksen liikenneonnettomuuden varalta. Vakuutuksen hinnan määrittämiseksi olisi hyvä, jos vakuutusyhtiö pystyisi arvioimaan paitsi potentiaalisen onnettomuuden kustannukset, myös todennäköisyyden, jolla asiakas joutuu onnettomuuteen. Jälkimmäisen arvioimiseksi käytetään logistista regressiota.
 
@@ -573,6 +573,7 @@ score
 Huomataan, että mallin tarkkuus on melko hyvä. Jälleen tarkka luku riippuu hieman siitä, mihin järjestykseen data on sattunut asettumaan testissä. Tätä satunnaisuutta voi tasata hieman jakamalla data testijoukkoon useaan otteeseen. Palataan tähän (toivottavasti) seuraavassa tilaisuudessa.
 
 Tarkkuuden määrittämisen lisäksi on hyvä tarkastaa, mitä pääätöksiä malli on toistanut oikein. Tässä ns. konfuusiomatriisi on hyödyllinen apuväline. Konfuusiomatriisi on järjestetty seuraavalla tavalla
+
 
 |              | Mallin päätös |
 ------------------------------|--------------|---------------|--------------
