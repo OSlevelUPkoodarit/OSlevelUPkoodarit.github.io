@@ -339,7 +339,7 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+![png](../../../output_30_0.png)
 
 
 Huomaat, että jakauma on melko epätasainen; collegen käymättömillä on huomattavasti suurempi palkka. Pelkäät, että tämä muuttuja vääristää analyysiasi, joten päätät poistaa muuttujan aineistostasi.
