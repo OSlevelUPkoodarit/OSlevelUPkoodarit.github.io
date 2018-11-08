@@ -48,7 +48,7 @@ Lineaarinen regressio siis arvio yritysjohtajan palkkaa erilaisten tekijöiden, 
 \begin{equation}
 y = \beta_0 + \beta_1 x_1 + ... + \beta_n x_n .  \tag{1}
 \end{equation}
-Yhtälössä (1) $ y $ on selitettävä eli endogeeninen muuttuja, tässä yritysjohtajan palkka. $ x_1, ..., x_n $ ovat endogeenisia eli selittäviä muuttujia ja niiden arvot saadaan datasta. Regressiokertoimet $ \beta_0, ..., \beta_n $ estimoidaan mallin avulla.
+Yhtälössä (1) $ y $ on selitettävä eli endogeeninen muuttuja, tässä yritysjohtajan palkka. $ x_1, ..., x_n $ ovat eksogeenisia eli selittäviä muuttujia ja niiden arvot saadaan datasta. Regressiokertoimet $ \beta_0, ..., \beta_n $ estimoidaan mallin avulla.
 
 Lineaarisen regression tapauksessa regressiokertoimilla on selkeä tulkinta. $ \beta_0 $ on vakiotermi, joka kertoo yrityksen johtajan palkan silloin, kun kaikki selittävät tekijät saavat arvon 0. Esimerkiksi tehtäväosuudessa se kuvaa myynnin määrää silloin, kun yritys ei käytä rahaa mainontaan. $ \beta_1, ..., \beta_n $ kertovat kunkin selittävän muuttujan vaikutuksen palkkaan, esimerkiksi kuinka paljon enemmän tai vähemmän palkkaa vanhempi yritysjohtaja saa nuorempaan verrattuna.
 
