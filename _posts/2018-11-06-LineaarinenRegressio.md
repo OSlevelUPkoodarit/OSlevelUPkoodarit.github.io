@@ -5,7 +5,7 @@ title: Lineaarinen regressio
 
 # Lineaarinen regressio: materiaali
 
-**Voit ladata tehtävät [tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/linregTehtava.ipynb %}). Malliratkaisut tulevat tilaisuuden jälkeen.**
+**Voit ladata tehtävät [tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/linregTehtava.ipynb %}). Malliratkaisut löytyvät [täältä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/linregTehtavaMalliratkaisu.ipynb %}).**
 
 **Voit myös ladata nämä materiaalit muistiona [tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/LineaarinenRegressio.ipynb %}).**
 # Lineaarinen regressio: materiaali
