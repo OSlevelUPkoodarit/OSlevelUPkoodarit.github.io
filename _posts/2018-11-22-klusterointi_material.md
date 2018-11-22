@@ -6,8 +6,6 @@ title: Klusterointi
 # Klusterointi
 
 
-**Voit ladata tehtävät [tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/klusterointi_tehtavat.ipynb %}). Linkki malliratkaisuihin lisätään workshopin jälkeen tähän.**
-
 ## Teoriaosuuden sisältö
 * Ohjattu koneoppiminen vs ohjaamaton koneoppiminen
 * Etäisyyden käsite
