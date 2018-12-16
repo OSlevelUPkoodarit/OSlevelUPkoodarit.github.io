@@ -372,6 +372,8 @@ Mukana on siis enää ikä, opintopisteiden määrä ja sukupuoli. Kaikki ne ova
 
 Tähän teoriaosuuteen liittyy jo aiemmin ladatun tehtävän ([jos et ladannut sitä vielä, voit tehdä sen tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/Python_exercise.ipynb %})) osio 2.
 
+Esimerkkivastaus tehtäviin löytyy ([tästä]({{ OSlevelUPkoodarit.github.io }}{% link notebooks/python_example_solution.ipynb %})).
+
 
 
 
