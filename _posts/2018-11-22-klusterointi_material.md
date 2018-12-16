@@ -257,7 +257,7 @@ Oikeastihan näitä ei ikinä lasketa itse, vaan käytetään valmiita kirjastoj
 
 Käytetään esimerkissä datasettiä, joka on alunperin [Kagglesta](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python) ja joka sisältää tietoa kauppakeskuksen asiakkaista.
 
-Luetaan data sisään ja tutkitaan sitä edellisten kertojen tapaan. Koska mukana on tieto diabeteksen esiasteesta, poistetaan se sarake.
+Luetaan data sisään ja tutkitaan sitä edellisten kertojen tapaan.
 
 
 ```python
