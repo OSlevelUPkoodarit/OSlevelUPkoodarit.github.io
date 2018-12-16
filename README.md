@@ -1,5 +1,5 @@
 ## Information about the repository
-This repository is created for having a place for education material and creating GitHub Pages. Currently materials are not there yet, but there will be materials for learning machine and AI learning. 
+This repository is created for having a place for education material. Currently only materials on the site are from data science workshops.
 
 ## Running the website locally
 These instructions work have been tested with MacOS, not Windows or Ubuntu.
