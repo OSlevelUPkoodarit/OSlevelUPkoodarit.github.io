@@ -125,24 +125,12 @@ df.isna().sum()
 
 Tässä datasetissä sukupuoli on kategorinen muuttuja. Koska useimmat koneoppimisalgoritmit haluavat vain numeerisia arvoja, kategoriset muuttujat on hyvä muuttaa numeeriksi. 
 
-Tätä varten on olemassa Encodereita Scikit-learn -koneoppimiskirjastossa. Encoder asettaa nykyiset arvot luokiksi, ja antaa niille vastaavat numeeriset arvot:
+Tätä varten muutetaan eri luokat omiksi sarakkeiksi, ja merkitään 0 tai 1 merkiksi siitä, kuuluuko rivin opiskelija tiettyyn luokkaan.
 
 
 ```python
-from sklearn.preprocessing import OrdinalEncoder
-
-le_gender=OrdinalEncoder(categories='auto')
-le_gender.fit(df[['Gender']])
-
-df['Gender']=le_gender.transform(df[['Gender']])
-
-le_gender.categories_
+df=pd.get_dummies(df, columns=['Gender'])
 ```
-
-
-
-
-    [array(['Female', 'Male', 'Other'], dtype=object)]
 
 
 
@@ -150,36 +138,105 @@ Nyt Gender-sarakkeen arvot on muutettu numeerisiksi, voimme tarkistaa tämän ot
 
 
 ```python
-df['Gender'].head()
+df.head()
 ```
 
 
 
 
-    0    0.0
-    1    1.0
-    2    0.0
-    3    0.0
-    4    0.0
-    Name: Gender, dtype: float64
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
-
-Jos haluamme muuttaa numeeriset takaisin kategorisiksi, se käy myös helposti:
-
-
-```python
-le_gender.inverse_transform(df[['Gender']])[:5]
-```
-
-
-
-
-    array([['Female'],
-           ['Male'],
-           ['Female'],
-           ['Female'],
-           ['Female']], dtype=object)
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Student_id</th>
+      <th>First_name</th>
+      <th>Last_name</th>
+      <th>Points</th>
+      <th>Enrolled</th>
+      <th>Age</th>
+      <th>Gender_Female</th>
+      <th>Gender_Male</th>
+      <th>Gender_Other</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000</td>
+      <td>Pertti</td>
+      <td>Sanchez</td>
+      <td>265</td>
+      <td>0</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10001</td>
+      <td>Emily</td>
+      <td>Atkins</td>
+      <td>17</td>
+      <td>1</td>
+      <td>30.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10002</td>
+      <td>Sanna</td>
+      <td>Atkins</td>
+      <td>291</td>
+      <td>1</td>
+      <td>32.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10003</td>
+      <td>Outi</td>
+      <td>Sanchez</td>
+      <td>273</td>
+      <td>1</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10004</td>
+      <td>Dina</td>
+      <td>Smith</td>
+      <td>273</td>
+      <td>0</td>
+      <td>34.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
@@ -238,7 +295,9 @@ df_features.head(20)
       <th></th>
       <th>Points</th>
       <th>Age</th>
-      <th>Gender</th>
+      <th>Gender_Female</th>
+      <th>Gender_Male</th>
+      <th>Gender_Other</th>
     </tr>
   </thead>
   <tbody>
@@ -246,121 +305,161 @@ df_features.head(20)
       <th>0</th>
       <td>265</td>
       <td>35.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>17</td>
       <td>30.000000</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
       <td>291</td>
       <td>32.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>3</th>
       <td>273</td>
       <td>35.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>273</td>
       <td>34.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>5</th>
       <td>245</td>
       <td>35.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>6</th>
       <td>230</td>
       <td>33.381303</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>7</th>
       <td>285</td>
       <td>28.000000</td>
-      <td>2.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>8</th>
       <td>215</td>
       <td>25.000000</td>
-      <td>2.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>9</th>
       <td>241</td>
       <td>38.000000</td>
-      <td>2.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>10</th>
       <td>153</td>
       <td>43.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>11</th>
       <td>234</td>
       <td>38.000000</td>
-      <td>2.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>12</th>
       <td>145</td>
       <td>37.000000</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>13</th>
       <td>177</td>
       <td>31.000000</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>14</th>
       <td>300</td>
       <td>33.000000</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>15</th>
       <td>204</td>
       <td>37.000000</td>
-      <td>2.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>16</th>
       <td>226</td>
       <td>34.000000</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>17</th>
       <td>162</td>
       <td>23.000000</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>18</th>
       <td>51</td>
       <td>37.000000</td>
-      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>19</th>
       <td>152</td>
       <td>33.381303</td>
-      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
