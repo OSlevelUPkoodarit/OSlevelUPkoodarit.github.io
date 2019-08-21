@@ -330,7 +330,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_27_0.png)
+![png](../../../images/output_27_0.png)
 
 
 ## Harjoitusdata ja testidata
@@ -617,7 +617,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_56_0.png)
+![png](../../../images/output_56_0.png)
 
 
 ## Mallin toimintakyky: ROC-käyrä ja alue käyrän alapuolella (AUC)
@@ -661,7 +661,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_62_0.png)
+![png](../../../images/output_62_0.png)
 
 
 Yleisemmin malliin on syytä olla erittäin tyytyväinen, jos AUC on n. 0,9 ja 0,8 on vielä täysin hyväksyttävä arvo. 0,7:n mallia voi vielä käyttää, mutta sen alapuolella on syytä olla varovainen.
@@ -681,7 +681,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_65_0.png)
+![png](../../../images/output_65_0.png)
 
 
 Lasketaan vielä ROC-käyrän alapuolinen alue, jotta saadaan mittari mallin toimintakyvylle. AUC:n tarkka arvo vaihtelee hieman datasetin asettumisen mukaan, mutta tästä nähdään, että malli ei pysty tyydyttävästi toistamaan pankin työntekijöiden tekemiä lainapäätöksiä.
@@ -709,7 +709,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_70_0.png)
+![png](../../../images/output_70_0.png)
 
 
 On myös hyvä huomata, että tehtävänannossa pyydetään toistamaan pankin työntekijöiden lainanantopäätökset. Onkin syytä kysyä, onko tämä järkevä kriteeri, vai olisiko syytä keskittyä myöntämään laina asiakkaille, joiden voi odottaa maksavan takaisin. Tätä kysymystä varten tarvittaisiin dataa asiakkaiden lainojen takaisinmaksusta.

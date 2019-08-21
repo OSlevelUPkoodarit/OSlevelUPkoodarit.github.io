@@ -18,7 +18,7 @@ body {
       70%,
       rgba(255, 255, 255, 1)
     ),
-    url('adult-business-communication-1181253_2.jpg');
+    url('../images/adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -41,7 +41,7 @@ body {
       rgba(153, 184, 152, 0.850)
     ),
     */
-    url('adult-business-communication-1181253_2.jpg');
+    url('../images/adult-business-communication-1181253_2.jpg');
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -156,7 +156,7 @@ a.boxlink {
       rgba(0, 0, 0, 0.3)
     ),
     
-    url('code-coding-computer-270373.jpg');
+    url('../images/code-coding-computer-270373.jpg');
     font-size: 3vw;
     font-family: 'Permanent Marker', sans-serif;
     background-size: cover;
@@ -171,7 +171,7 @@ a.boxlink {
 
 .postbox:hover {
     background:
-    url('code-coding-computer-270373.jpg'),
+    url('../images/code-coding-computer-270373.jpg'),
     linear-gradient(
       rgba(160, 160, 160, 0.7), 
       rgba(160, 160, 160, 0.7)

@@ -129,7 +129,7 @@ x+y
 
 
 Geometrisesti tarkasteltuna vektorien yhteenlasku (2-ulotteisesti) tarkoittaa
-![Screen%20Shot%202018-09-29%20at%2022.55.13.png](../../../css/vektoritmatriisit.png)
+![Screen%20Shot%202018-09-29%20at%2022.55.13.png](../../../images/vektoritmatriisit.png)
 
 ##### Vektorien vähennyslasku
 
@@ -147,7 +147,7 @@ x-y
 
 
 
-![Screen%20Shot%202018-09-29%20at%2023.14.53.png](../../../css/vektoritmatriisit2.png)
+![Screen%20Shot%202018-09-29%20at%2023.14.53.png](../../../images/vektoritmatriisit2.png)
 
 ##### Vektorien kertolasku
 
@@ -195,11 +195,11 @@ print('10 * x')
 
 Vektorien pistetuloa käytetään koneoppimisessa laajasti. Pistetulo tarkoittaa, että vektorin a jokainen elementti kerrotaan vektorin b vastaavan elementin kanssa, ja kaikkien elementtien tulot lasketaan yhteen, jolloin lopputulokseksi tulee YKSI LUKU. 
 
-![Screen%20Shot%202018-09-30%20at%2010.39.44.png](../../../css/vektoritmatriisit3.png)
+![Screen%20Shot%202018-09-30%20at%2010.39.44.png](../../../images/vektoritmatriisit3.png)
 
 Pistetulon ominaisuuksia
 
-![Screen%20Shot%202018-09-30%20at%2010.42.15.png](../../../css/vektoritmatriisit4.png)
+![Screen%20Shot%202018-09-30%20at%2010.42.15.png](../../../images/vektoritmatriisit4.png)
 
 ##### Vektorin pituuden tarkistaminen
 
@@ -356,7 +356,7 @@ type(N)
 
 Vain samanmuotoisia matriiseja voi laskea yhteen (tai vähentää toisistaan)
 
-![Screen%20Shot%202018-09-29%20at%2016.03.48.png](../../../css/vektoritmatriisit5.png)
+![Screen%20Shot%202018-09-29%20at%2016.03.48.png](../../../images/vektoritmatriisit5.png)
 
 
 ```python
@@ -431,7 +431,7 @@ Onko E(=B+A) sama matriisi kuin A+B?
 
 #### Matriiseja voi myös kertoa. Matriisien kertolaskua (vakiolla) kutsutaan skalaarikertolaskuksi. 
 
-![Screen%20Shot%202018-09-29%20at%2017.22.46.png](../../../css/vektoritmatriisit6.png)
+![Screen%20Shot%202018-09-29%20at%2017.22.46.png](../../../images/vektoritmatriisit6.png)
 
 
 ```python
@@ -473,7 +473,7 @@ Matriisin voi myös kertoa matriisilla. Tälle on kuitenkin erityisiä ehtoja, j
 2) Matriisien kertolaskussa kertomisjärjestyksellä ON väliä. A*B ei ole sama kuin B*A
 
 
-![Screen%20Shot%202018-09-29%20at%2017.48.37.png](../../../css/vektoritmatriisit7.png)
+![Screen%20Shot%202018-09-29%20at%2017.48.37.png](../../../images/vektoritmatriisit7.png)
 
 
 ```python
@@ -700,7 +700,7 @@ Missä järjestyksessä matriisi O ja vektori y tulee nyt kertoa?
 
 ### Matriisien laskusäännöistä
 
-![Screen%20Shot%202018-09-30%20at%2011.30.56.png](../../../css/vektoritmatriisit8.png)
+![Screen%20Shot%202018-09-30%20at%2011.30.56.png](../../../images/vektoritmatriisit8.png)
 
 
 

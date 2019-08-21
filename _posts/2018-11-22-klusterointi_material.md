@@ -43,7 +43,7 @@ plt.scatter(x, y)
 
 
 
-![png](../../../css/output_4_1.png)
+![png](../../../images/output_4_1.png)
 
 
 
@@ -76,9 +76,9 @@ Euklidisen etäisyyksien lisäksi on myös monia muita tapoja mitata numeeristen
 
 Etäisyys on helppo ymmärtää, kun kyse on numeerisista muuttujista, mutta mitä jos halutaan laskea kuvien etäisyys toisistaan, tai sanojen? Miten esimerkiksi mittaisit seuraavien kuvien etäisyyttä toisistaan?
 
-![jpg](../../../css/cute-dog-furry-69372.jpg)
+![jpg](../../../images/cute-dog-furry-69372.jpg)
 
-![jpg](../../../css/animal-beagle-canine-460823.jpg)
+![jpg](../../../images/animal-beagle-canine-460823.jpg)
 
 Entäpä miten mittaisit seuraavien lauseiden etäisyyden?
 
@@ -171,7 +171,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_21_0.png)
+![png](../../../images/output_21_0.png)
 
 
 Lasketaan sen jälkeen datapisteiden etäisyys keskiarvoihin käyttäen euklidista etäisyyttä:
@@ -518,7 +518,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_35_0.png)
+![png](../../../images/output_35_0.png)
 
 
 Valitaan tämän perusteella k:n arvoksi 5. Tämän jälkeen varianssi ei enää merkittävästi pienene.
@@ -556,7 +556,7 @@ sn.pairplot(df, hue='cluster')
 
 
 
-![png](../../../css/output_40_1.png)
+![png](../../../images/output_40_1.png)
 
 
 Millaisia asiakassegmenttejä löydät?
