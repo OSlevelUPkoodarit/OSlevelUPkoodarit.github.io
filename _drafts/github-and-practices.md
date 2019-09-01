@@ -8,21 +8,21 @@ Ideally, your commit should have only related changes but only a small amount of
 
 *Thesis example: Changing wording in a paragraph.*
 
-#### Committing frequency  
-Although the changes in a commit should be coupled, it doesn't mean that you shouldn't commit often. It is often encouraged to commit quite often, because if something goes wrong on your computer, well, then, this happens:
+#### Committing frequency
+Although the changes in a commit should be related, it doesn't mean that you shouldn't commit often. It is often encouraged to commit quite often, because if something goes wrong on your computer, well, then, this happens:
 ![Screenshot from Slack where a person tells that they lost all the changes they had made during a day because they hadn't committed and their computer froze.](../../../images/not_committed.png)
 <small>In English: "That feeling when your computer freezes on Friday and destroys a massive component that you've been working on the whole day, saves it as an empty file when restarting and you haven't committed it." </small>  
 
 Another reason is of course that when you commit often, the commits stay small. 
 
 #### Commit messages
-Because you're committing small changes, it is also very easy to describe the contents of the commit, right? Many people sat that describing **why** you made a change is more important that **what** the changes are. I usually try to include both, but ideally, the message should also be quite short, only a few sentences. 
+Because you're committing small changes, it is also very easy to describe the contents of the commit, right? Many people say that describing **why** you made a change is more important that **what** the changes are. I usually try to include both, but ideally, the message should also be quite short, only a few sentences. 
 
 *Programming example: "Wrote a new function to be able to parse price information from XML. Also, wrote a test for it."*
 
 *Thesis example: "Rewrote the definition of bias to make it more understandable for people that are not in this field."* 
 
-#### Branching
+#### Branches
 In every project I have worked in there has been some kind of branching. There's a debate what is the right way to do branching, whether you should have feature branches at all or should you just have one or two branches. I have mostly seen feature branches used and I prefer that way. It's because when you have separate branches, it's harder to mess up the entire project. It also makes it easier to track changes that are going to be deployed. 
 
 *Programming example: A deployable, larger entity, for example, a new feature and tests for all the functions that are written when implementing the feature.*
@@ -30,10 +30,10 @@ In every project I have worked in there has been some kind of branching. There's
 *Thesis example: A complete section which introduces a new part of the thesis subject.*
 
 #### Review
-Before the change is merged to the main branch, it is usually a good idea to let someone else check the changes. Even the experienced developers make errors all the time and everyone gets blind to their code, so it's a good idea not to skip the code reviews. In GitHub-part one way of doing this is introduced.
+Before the change is merged to the main branch, it is usually a good idea to let someone else check the changes. Even the experienced developers make errors all the time and everyone gets blind to their code, so it's a good idea not to skip the code reviews. You could probably ask someone to review the changes to your thesis, too! In GitHub-partwe introduce  one way of doing reviews.
 
 #### Monorepo vs polyrepo  
-Monorepo means using one repository for multiple projects and so, polyrepo means having those projects in their repositories. Selecting which one to use depends on the projects: if there have shared code and common purpose for the projects, then maybe it makes sense to have them together. If they have nothing in common and are not related, maybe keep them in separate repositories. You can find a pretty good comparison of them 
+Monorepo means using one repository for multiple projects and so, polyrepo means having those projects in separate repositories. Selecting which one to use depends on the projects: if there share code and have a common purpose for the projects, then maybe it makes sense to have them together. If they have nothing in common and are not related, maybe keep them in separate repositories. You can find a pretty good comparison of them 
 [here](https://github.com/joelparkerhenderson/monorepo_vs_polyrepo#comparisons).
 
 # GitHub
