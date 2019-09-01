@@ -31,13 +31,15 @@ One hot topic right now in infosec side is supply chain attack. Because projects
 #### GitHub pages 
 GitHub offers you a way to host a website easily and for free. This could be used for example for having your portfolio or website when you apply for job. The website is built automatically based on code in your repository on website after some minor settings adjustments. 
 
-# Version control practises 
+# Version control practices 
 Version control practices vary from team to another, but we wanted to give some ideas of what those practices can be. We'll provide examples of what it would mean in a code and what it would mean if you're writing a thesis.
 
 #### Content of a commit
-Ideally your commit should have only related changes but only small amount of them. When programming, this could be for example a new function that provides some new functionality. Maybe it could also contain a test for the new function. In thesis example, it could be that you changed a wording of a paragraph or wrote a new one.
+Ideally your commit should have only related changes but only small amount of them. Keeping commits small and having related changes in a commit means that other people can more easily see what has changed and what's the purpose of the commit. It is also easy to rollback the change if something goes wrong and you don't want to keep the change after all.
 
-Keeping commits small and having related changes in a commit means that other people can more easily see what has changed and what's the purpose of the commit. It is also easy to rollback the change if something goes wrong and you don't want to keep the change after all.
+*Programming example: a new function that provides some small part of functionality and possibly a test for the function.*
+
+*Thesis example: Changing wording in a paragraph.*
 
 #### Committing frequency  
 Although the changes in a commit should be coupled, it doesn't mean that you shouldn't commit often. It is often encouraged to commit quite often, because if something goes wrong on your computer, well, then, this happens:
@@ -46,16 +48,26 @@ Although the changes in a commit should be coupled, it doesn't mean that you sho
 
 Another reason is of course that when you commit often, the commits stay small. 
 
+#### Commit messages
+Because you're commiting small changes, it is also very easy to describe the contents of the commit, right? Many people sat that describing **why** you made a change is more important that **what** the changes are. I usually try to include both, but ideally the message should also be quite short, only a few sentences. 
+
+*Programming example: "Wrote a new function to be able to parse price information from XML. Also wrote a test for it."*
+
+*Thesis example: "Rewrote the definition of bias in order to make it more understandable for people that are not in this field."* 
+
 #### Branching
-In every project I have worked in there has been some kind of branching. There's a debate what is the right way to do branching, whether you should have feature branches at all or should you just keep with one or two branches. 
+In every project I have worked in there has been some kind of branching. There's a debate what is the right way to do branching, whether you should have feature branches at all or should you just have one or two branches. I have mostly seen feature branches used and I prefer that way. It's because when you have separate branches, it's harder to mess up the entire project. It also makes it easier to track changes that are going to be deployed. 
+
+*Programming example: A deployable, larger entity, for example a new feature and tests for all the functions that are written when implementing the feature.*
+
+*Thesis example: A complete section which introduces a new part of the thesis subject.*
+
+#### Review
+Before the change is merged to main branch, it is usually good idea to let someone else check the changes. 
 
 #### Monorepo vs polyrepo  
 Monorepo means using one repository for multiple projects and so, polyrepo means having those projects in their own repositories. Selecting which one to use depends on the projects: if there have shared code and common purpose for the projects, then maybe it makes sense to have them together. If they have nothing in common and are not related, maybe keep them in separate repositories. You can find pretty good comparison of them 
 [here](https://github.com/joelparkerhenderson/monorepo_vs_polyrepo#comparisons).
-
-#### Commit messages
-
-#### Review
 
 
 
