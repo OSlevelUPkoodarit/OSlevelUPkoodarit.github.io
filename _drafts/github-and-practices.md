@@ -9,25 +9,55 @@ There are so many features that we're not going to go through all of them, but w
 ![Screenshot from GitHub website that lists categories of GitHub features: code review, project management, integrations, team management, social coding, documentation and code hosting.](../../../images/features_github.jpg)
 <small>_(source: [GitHub webpage](https://github.com/features))_</small>
 
-**Pull requests / Code reviews**  
+#### Pull requests / Code reviews
 By pull request, we mean a situation that someone has created a branch and wants to merge it back to the main branch (usually dev or master) so they create a request for someone to approve. Usually at this point, the new addition or some major fix has been done.
 
 This is a nice way to ensure that someone has looked through changes that are about to be made to the source code. Other people reviewing the code can leave a comment to specific lines, and tell their opinion.
 
 It is even possible to add a setting that requires that a pull request has to be approved before it can be merged. Merge can be performed from GitHub UI or locally.
 
-**Fork**  
+#### Fork
 Even if you don't have permissions to a repository, you are able to fork it. Forking creates copy of the repository you forked under your account and let's you make changes to it. In order to get the changes to original repository, you need make a pull request. 
 
-**Issues and project boards**  
+#### Issues and project boards
 GitHub provides tools for project management as well. It enables suggesting new features or reporting bugs and keeping track of the ongoing work. In professional settings project typically have separate project management tool, such as Jira, but GitHub boards can be handy for small/open source projects. 
 
-**Wiki**  
+#### Wiki  
 Documentation is very important but often overlooked part of projects. In many occations documentation in separately somewhere else, and is updated lazily. GitHub provides a way to keep documentation coupled with the source code: wikis. In wikis one can have all project documentation from domain or technical perspective. 
 
-**Security alerts**
+#### Security alerts
 One hot topic right now in infosec side is supply chain attack. Because projects usually use 3rd party libraries and frameworks, they are vital part of project's security. As security vulnerabilities are constantly found in them, GitHub has created a feature that alerts the team about the vulnerabilities.
 
-
-**GitHub pages**  
+#### GitHub pages 
 GitHub offers you a way to host a website easily and for free. This could be used for example for having your portfolio or website when you apply for job. The website is built automatically based on code in your repository on website after some minor settings adjustments. 
+
+# Version control practises 
+Version control practices vary from team to another, but we wanted to give some ideas of what those practices can be. We'll provide examples of what it would mean in a code and what it would mean if you're writing a thesis.
+
+#### Content of a commit
+Ideally your commit should have only related changes but only small amount of them. When programming, this could be for example a new function that provides some new functionality. Maybe it could also contain a test for the new function. In thesis example, it could be that you changed a wording of a paragraph or wrote a new one.
+
+Keeping commits small and having related changes in a commit means that other people can more easily see what has changed and what's the purpose of the commit. It is also easy to rollback the change if something goes wrong and you don't want to keep the change after all.
+
+#### Committing frequency  
+Although the changes in a commit should be coupled, it doesn't mean that you shouldn't commit often. It is often encouraged to commit quite often, because if something goes wrong on your computer, well, then, this happens:
+![Screenshot from Slack where a person tells that they lost all the changes they had made during a day because they hadn't committed and their computer froze.](../../../images/not_committed.png)
+<small>In English: "That feeling when your computer freezes on Friday and destroys a massive components that you've been working on the whole day, saves it as an empty file when restarting and you haven't committed it." </small>  
+
+Another reason is of course that when you commit often, the commits stay small. 
+
+#### Branching
+In every project I have worked in there has been some kind of branching. There's a debate what is the right way to do branching, whether you should have feature branches at all or should you just keep with one or two branches. 
+
+#### Monorepo vs polyrepo  
+Monorepo means using one repository for multiple projects and so, polyrepo means having those projects in their own repositories. Selecting which one to use depends on the projects: if there have shared code and common purpose for the projects, then maybe it makes sense to have them together. If they have nothing in common and are not related, maybe keep them in separate repositories. You can find pretty good comparison of them 
+[here](https://github.com/joelparkerhenderson/monorepo_vs_polyrepo#comparisons).
+
+#### Commit messages
+
+#### Review
+
+
+
+
+
