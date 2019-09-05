@@ -1,3 +1,8 @@
+---
+layout: post
+date: 2019-08-05 10:00:00
+---
+
 # Version control practices 
 Version control practices vary from one team to another, but we wanted to give some ideas of what those practices can be. We'll provide examples of what it would mean in a code and what it would mean if you're writing a thesis.
 

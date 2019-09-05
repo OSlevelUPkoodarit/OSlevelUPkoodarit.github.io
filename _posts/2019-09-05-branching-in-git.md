@@ -1,3 +1,8 @@
+---
+layout: post
+date: 2019-08-05 11:00:00
+---
+
 # Branching
 
 Once the team and the projects grow, you may encounter issues with making changes at the same time. 
