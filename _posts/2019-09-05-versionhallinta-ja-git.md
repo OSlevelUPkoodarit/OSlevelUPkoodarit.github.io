@@ -1,3 +1,8 @@
+---
+layout: post
+date: 2019-08-05 9:00:00
+---
+
 # Versionhallinta ja Git
 
 #### Mikä on versionhallinta?

@@ -1,3 +1,8 @@
+---
+layout: post
+date: 2019-08-05 9:00:00
+---
+
 # Version control and Git
 
 Version control is a system or service that records changes to a file or set of files over time. If you are already familiar with Google Drive or Dropbox, you already kind of know what version control aims to do with code files and why. Some may even have used Overleaf to write their thesis or some school work. The basic idea and motivation for using some kind of version control is the same for all these services: First, it works as a backup - if something happens to your computer or files, then you can always get it back from online service. Second, it's very often that something goes wrong while implementing a new functionality or a feature. Version control allows you to recall a specific version of your work and revert back to that state (a specific file or the entire project). It's also a necessary tool for remote team work for sharing code between developers and for contributing to other people's projects. It allows you to see who last modified something and the changes over time. In this context, we mainly focus on code files, in reality any type of file could be placed under version control.
