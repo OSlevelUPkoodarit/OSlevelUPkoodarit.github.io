@@ -59,17 +59,27 @@ Second exercise: complete first Introduction Sequence in [this git practice envi
 
 
 ##### Merge conflicts
-Sometimes merging changes doesn't go as planned. When multiple people change the same content and then try to merge, merge conflicts occur. This happens because the version control system cannot know which one is the correct content or if both are correct but incomplete. When merge conflict occurs, someone (usually the one trying to merge changes later) has to decide which change is correct and fix the files manually.
+Sometimes merging changes doesn't go as planned. When multiple people change the same content and then try to push/merge, merge conflicts occur. This happens because the version control system cannot know which one is the correct content or if both are correct but incomplete. When a merge conflict occurs, someone (the one trying to push/merge changes later) has to decide which change is correct and fix the files manually or with a tool.
+
+The file with a merge conflict shows where the conflict has occurred. Conflicted lines look like this:
+```
+When a merge conflict occurs
+<<<<<<< HEAD
+fix the issue manually.
+=======
+use a tool to resolve it.
+>>>>>>> feature-branch
+```
+The line before ======= shows what was in the repository when you tried to pull. Line after it shows your changes. This can be manually resolved by simply removing the text that is invalid and also the lines that indicate the conflict. 
+
+
 
 Exercise:
-This time we will cause merge conflict on purpose, so that you have experience on fixing it. If you're working solo on a project it is very likely that you don't encounter them, but when working in teams it is vital to know how to fix them. This is something you need to on your GitHub account and in the repository that you've already created. 
+This time we will cause merge conflict on purpose so that you have experience in fixing it. If you're working solo on a project it is very likely that you don't encounter them, but when working in teams it is vital to know how to fix them. This is something you need to on your GitHub account and in the repository that you've already created. 
 
-1. Create a file to a repository if you don't already have one. Write a line of text to it and push it to remote repository.
+1. Create a file to a repository if you don't already have one. Write a line of text to it and push it to the remote repository.
 2. Clone a second copy of the repository on your computer. Now you will have the same repository twice. 
-3. Change the file in both repositories. It is important that you change the text that you already wrote there. 
+3. Change the file in both repositories and commit them. It is important that you change the text that you already wrote there. 
 4. Push the changes from one local copy to remote.
 5. Change to other copy and pull the changes, you should now have a merge conflict!
-6. Fix it (Adding instruction later)
-
-
-
+6. Fix it manually or using a tool!
