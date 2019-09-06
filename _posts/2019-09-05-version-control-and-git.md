@@ -103,7 +103,22 @@ git clone <remote address>
 
 ## Exercises
 
-TBD
+Let's go through how commit is created and the different stages of files in practice with command line. First, we will create an empty folder and initialize a git project with the command `git init`. Did something change in the folder? Why do we need to do this?
+
+Next, we will create a new text file called "example.txt" inside the folder. Now, let's run the command `git status` and take a closer look on the output.
+What are untracked files and why those are mentioned in the output? A good hint might be "nothing added to commit but untracked files present (use "git add" to track)".
+
+Let's add the changes in the new file by running `git add example.txt`. What does `git status` output say about the current status of the file?
+
+After adding the file to the next commit, let's write something in the text file. What does `git status` output say about the current status of the file?
+
+Let's create another file, called "example2.txt" in the same folder.
+
+Let's add all the changes again by running `git add .`. What does the output say?
+
+After making sure both files are to be committed, let's run `git commit -m"My first commit"`. What does the output say about the current status of the files?
+
+In the output, you can find some information about the files. `Changes to be committed` means that the files under that title are successfully staged and hence, will be included in the next commit. Similarly, `Changes not staged for commit` refers to the changes which git is aware of, which will not be added to the next commit. `Untracked files` are not tracked by git. In other words, they are unknown to git, and the changes inside them are not being followed. This also means that the changes will not be added to the next commit. Git also makes it easier for us to follow which files are staged and which are not, since all the staged changes are green and not staged are red in the output. There are great graphical tools and plugins for git. There might be some differences between them in which steps are automaticallu done and which are not. For example. git desktop adds automatically all the files to staging.
 
 ### Sources
 
