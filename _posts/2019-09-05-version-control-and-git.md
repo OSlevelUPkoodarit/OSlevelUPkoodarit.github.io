@@ -47,10 +47,10 @@ It is also possible to add all the modified files in the project with a single c
 git add .
 ```
 
-Now the state of the files has changed to staged, but the staged files are not yet saved to the git directory. We have only indicated, that we want to save these changed files as they are at the moment in the next commit. Finally, we can actually save the files to the git directory running:
+This will add all the files in your current folder and all the files under it. It's quite handy most of the times, since you don't have to hand pick all the files that have changed. Now the state of the files has changed to staged, but the staged files are not yet saved to the git directory. We have only indicated, that we want to save these changed files as they are at the moment in the next commit. Finally, we can actually save the files to the git directory running:
 
 ```
-git commit -m"Some describing message about the changes"
+git commit -m "Some describing message about the changes"
 ```
 
 This will change the state of the files to committed. Note that each commit needs to have a message explaining what kind of changes that specific commit introduces and what is the purpose for those changes. This makes it easier to review the project history and progress, but also to roll back any changes and fix bugs later on. If you leave out the flag -m and the message, a text editor will open, where you can write a longer, detailed description below the title message. The commit is then created by saving and exiting the text editor. At this point all the work is still located in your computer. If, for some weird reason, it would explode or get stolen, all the work would still be lost.
@@ -83,7 +83,7 @@ Origin is the common naming convention for the remote repository. Note that a si
 git push <remote name> <branch name>
 ```
 
-We will cover branches in the next chapters. Note that If you add the flag -u after the push command, next time you don't need to specify the name of the remote and the branch to push changes to the same place. What if someone else made changes and you would like to fetch them to your local machine? The changes in the remote repository can be fetched by running:
+We will cover branches in the next chapters. Note that if you add the flag -u after the push command, next time you don't need to specify the name of the remote and the branch to push changes to the same place. What if someone else made changes and you would like to fetch them to your local machine? The changes in the remote repository can be fetched by running:
 
 ```
 git pull
