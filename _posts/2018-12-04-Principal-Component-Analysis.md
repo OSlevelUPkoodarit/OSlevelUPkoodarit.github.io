@@ -33,7 +33,7 @@ Itseasiassa, nämä kaksi tavoitetta ovatkin keskenään ekvivalentteja, ja PCA:
 
 Mutta miten ihmeessä nämä voivat olla keskenään ekvivalentteja? Kuvitellaan kaksi muuttujaa $x$ ja $y$, jotka korreloivat keskenään. Niistä piirretty kuvaaja voisi näyttää vaikkapa seuraavalta:
 
-![jPw90.png](../../../css/jPw90.png)
+![jPw90.png](../../../images/jPw90.png)
 
 Uusi muuttuja voidaan rakentaa piirtämällä suora pisteiden keskelle, ja projektoimalla kaikki pisteet tälle suoralle. Jokainen syntyvä suora vastaa lineaarikombinaatiota $c_1 x + c_2 y$, missä $c_1$ ja $c_2$ vastaavat tiettyjä vakioita (kertoimia).
 
@@ -45,7 +45,7 @@ neliösumman virhe (MSE) ) saavuttaa minimin. Tällä suoralla (tai akselilla) o
 
 ## Lineaarikombinaatio
 
-![Screenshot%202018-11-27%20at%2016.31.33.png](../../../css/Screenshot%202018-11-27%20at%2016.31.33.png) Kuvassa alkuperäisisten komponenttien $x_i$ lineaarikombinaatio muodostaa pääkomponentin $PC_1$. Lähde: [Tampereen yliopiston luentomateriaalit](https://people.uta.fi/~petri.nokelainen/s33/luennot/luento5.ppt)
+![Screenshot%202018-11-27%20at%2016.31.33.png](../../../images/Screenshot%202018-11-27%20at%2016.31.33.png) Kuvassa alkuperäisisten komponenttien $x_i$ lineaarikombinaatio muodostaa pääkomponentin $PC_1$. Lähde: [Tampereen yliopiston luentomateriaalit](https://people.uta.fi/~petri.nokelainen/s33/luennot/luento5.ppt)
 
 ## Esimerkki: Yritysjohtajien palkkadata
 
@@ -255,7 +255,7 @@ plt.show()
 ```
 
 
-![png](../../../css/pca_output1.png)
+![png](../../../images/pca_output1.png)
 
 
 Kuten muistelimme, kuvaajista huomataan, että joidenkin muuttujien välillä näyttäisi olevan korrelaatioita. Lasketaan vielä korrelaatiomatriisi asian varmistamiseksi ja piirretään kuva asian havainnollistamiseksi
@@ -447,7 +447,7 @@ plt.show()
 ```
 
 
-![png](../../../css/pca_output2.png)
+![png](../../../images/pca_output2.png)
 
 
 Tosiaan, etenkin yrityksen voiton ja markkina-arvon välillä oli todella iso korrelaatio. Katsotaan seuraavaksi mitä voimme tehdä asialle PCA:n avulla. 
@@ -973,7 +973,7 @@ plt.show()
 ```
 
 
-![png](../../../css/pca_output3.png)
+![png](../../../images/pca_output3.png)
 
 
 Tämän muunnoksen jälkeen uutta datasettiä voisi käyttää vaikkapa lineaarisessa regressiossa, kuten alkuperäistäkin datasettiä käytettiin. Ei kuitenkaan mennä regressioon tällä kertaa, vaan jatketaan PCA:n kanssa.
@@ -998,7 +998,7 @@ plt.ylabel('cumulative explained variance')
 
 
 
-![png](../../../css/pca_output4.png)
+![png](../../../images/pca_output4.png)
 
 
 Tehdään sama temppu vielä siten, että säilytämme ainoastaan kaksi dimensiota.
@@ -1196,7 +1196,7 @@ plt.show()
 ```
 
 
-![png](../../../css/pca_output5.png)
+![png](../../../images/pca_output5.png)
 
 
 # Kohinan filtteröinti PCA:n avulla
@@ -1243,7 +1243,7 @@ plot_digits(digits.data)
 ```
 
 
-![png](../../../css/pca_output6.png)
+![png](../../../images/pca_output6.png)
 
 
 Lisätään seuraavaksi itse hieman kohinaa dataan, ja piirrellään kuvat uudestaan
@@ -1256,7 +1256,7 @@ plot_digits(noisy)
 ```
 
 
-![png](../../../css/pca_output7.png)
+![png](../../../images/pca_output7.png)
 
 
 
@@ -1284,7 +1284,7 @@ plot_digits(filtered)
 ```
 
 
-![png](../../../css/pca_output8.png)
+![png](../../../images/pca_output8.png)
 
 
 Huomataan, että päästiin melko hyvin eroon kohinasta. Tässä piilee myös yksi PCA:n hienous datan esikäsittelyn kannalta. Sen sijaan, että esimerkiksi koulutettaisiin malli erittäin monidimensioisella datalla, voidaankin kouluttaa malli hieman matalampi-dimensioisella esityksellä samasta datasta, joka myös hoitaa kohinan filtteröinnin ja korrelaatioiden poistamisen yhdellä iskulla. Lisää esimerkkejä PCA:n käytöstä löydät mm. [Python Data Science Handbookista](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html).

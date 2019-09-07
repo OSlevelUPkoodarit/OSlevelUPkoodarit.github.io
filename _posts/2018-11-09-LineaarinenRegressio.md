@@ -260,7 +260,7 @@ sns.boxplot(data = df, y = 'salary')
 
 
 
-![png](../../../css/output_23_1.png)
+![png](../../../images/output_23_1.png)
 
 
 Huomaat, että aineistossasi on johtaja, jolla on muihin nähden poikkeuksellisen korkea palkka. Päätät jäädä tutkistelemaan tilannetta.
@@ -274,7 +274,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_26_0.png)
+![png](../../../images/output_26_0.png)
 
 
 Huomaat, että aineistossasi on todella vähän johtajia, jotka eivät ole käyneet collegea. Varmuuden vuoksi päätät tulostaa taulukon, joka kertoo, kuinka monta.
@@ -339,7 +339,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_30_0.png)
+![png](../../../images/output_30_0.png)
 
 
 Huomaat, että jakauma on melko epätasainen; collegen käymättömillä on huomattavasti suurempi palkka. Pelkäät, että tämä muuttuja vääristää analyysiasi, joten päätät poistaa muuttujan aineistostasi.
@@ -395,7 +395,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_38_0.png)
+![png](../../../images/output_38_0.png)
 
 
 
@@ -405,7 +405,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_39_0.png)
+![png](../../../images/output_39_0.png)
 
 
 Hieman huolestuneena tarkastelet havaintoasi, jolla on poikkeuksellisen korkea palkka. Kyseinen johtaja tuntuu olevan vanhempaa ikäpolvea ja toiminut pitkään yrityksessä. Yrityksen tulos ja markkina-arvo eivät kuitenkaan vaikuta kovinkaan lupaavilta. Arvelet, että kyseinen havainto ei ole näkökulmastasi katsoen kovinkaan relevantti ja pelkäät sen vääristävän analyysiasi. Poistat sen siis aineistostasi.
@@ -431,7 +431,7 @@ plt.show()
 
 
 
-![png](../../../css/output_43_1.png)
+![png](../../../images/output_43_1.png)
 
 
 
@@ -447,7 +447,7 @@ plt.show()
 
 
 
-![png](../../../css/output_44_1.png)
+![png](../../../images/output_44_1.png)
 
 
 Muistelet myös lukeneesi varoituksia multikollineariteetista ja siitä, että se saattaa vaikuttaa analyysisi luotettavuuteen. Päätät tarkastaa muuttujien väliset korrelaatiot.
@@ -618,7 +618,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_48_0.png)
+![png](../../../images/output_48_0.png)
 
 
 Huomaat, että yrityksen voiton ja markkina-arvon välillä on todella iso korrelaatio. Pidät tämän mielessäsi ja toistat saman logaritmisille muuttujille.
@@ -787,7 +787,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_51_0.png)
+![png](../../../images/output_51_0.png)
 
 
 Yllätykseksesi huomaat, että tilanne on huomattavasti parempi. Päätät jatkaa analyysia ja olla tekemättä muutoksia dataan.
@@ -1107,7 +1107,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_77_0.png)
+![png](../../../images/output_77_0.png)
 
 
 
@@ -1119,7 +1119,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_78_0.png)
+![png](../../../images/output_78_0.png)
 
 
 Hieman ihmettelet muuttujan grad negatiivista arvoa, mutta muistat, että myös collegen käyneiden yritysjohtajien palkka oli pienempi kun käymättömien. Alat epäillä, että kouluttautuneiden on helpompi päästä yritysjohtajiksi. Myynnin ja yrityksen markkina-arvon vaikutus näyttää kadonneen tasomallista, kun taas log-mallissa on havaittavissa selkeä vaikutus. Epäilet, että tämä johtuu muuttujien välisestä multikollineariteetista.
@@ -1303,7 +1303,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_91_0.png)
+![png](../../../images/output_91_0.png)
 
 
 
@@ -1321,7 +1321,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_92_0.png)
+![png](../../../images/output_92_0.png)
 
 
 ## Säännelty regressio
@@ -1405,7 +1405,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_102_0.png)
+![png](../../../images/output_102_0.png)
 
 
 
@@ -1417,7 +1417,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_103_0.png)
+![png](../../../images/output_103_0.png)
 
 
 Katsotaan vielä mallin selitysaste ja piirretään kuva mallin ennustamista ja todellisista palkoista.
@@ -1467,7 +1467,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_108_0.png)
+![png](../../../images/output_108_0.png)
 
 
 
@@ -1485,7 +1485,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_109_0.png)
+![png](../../../images/output_109_0.png)
 
 
 Olosi alkaa olla jo vähemmän rohkaistunut, muttä päätät vielä antaa harjanneregressiolle mahdollisuuden.
@@ -1564,7 +1564,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_117_0.png)
+![png](../../../images/output_117_0.png)
 
 
 
@@ -1576,7 +1576,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_118_0.png)
+![png](../../../images/output_118_0.png)
 
 
 Tuloksesi muistuttavat taas hieman lähemmin lineaarisen regression tuloksia. Hieman jännittyneenä tulostat mallin selitysasteet.
@@ -1628,7 +1628,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_124_0.png)
+![png](../../../images/output_124_0.png)
 
 
 
@@ -1646,7 +1646,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_125_0.png)
+![png](../../../images/output_125_0.png)
 
 
 Et ole kovinkaan toiveikas mallisi ennustevoiman suhteen. Haluat kuitenkin ottaa matkasi oppimiskokemuksena ja haluat ymmärtää paremmin regression sääntelyn vaikutusta. Piirrät mallien kertoimet samaan kuvaan horisontaaliseen pylväsdiagrammiin.
@@ -1676,7 +1676,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_127_0.png)
+![png](../../../images/output_127_0.png)
 
 
 
@@ -1699,7 +1699,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_128_0.png)
+![png](../../../images/output_128_0.png)
 
 
 Huomaat, että sääntely hieman häivyttää grad-muuttujan arvoa ja siten yksinkertaistaa hieman malleja. Logistisessa mallissa lasso tuntuu häivyttäneen kertoimien arvon kokonaan, mikä tuntuu mielestäsi melkoiselta ylisäätelyltä.
@@ -1919,7 +1919,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_152_0.png)
+![png](../../../images/output_152_0.png)
 
 
 
@@ -1935,7 +1935,7 @@ plt.show()
 ```
 
 
-![png](../../../css/output_153_0.png)
+![png](../../../images/output_153_0.png)
 
 
 Lopulta päätät, että et missään tapauksessa voi käyttää malliasi arvioimaan potentiaalisten asiakkaittesi palkkaa nykytyössään. Huomaat kuitenkin, että analyysisi antaa tärkeää tietoa siitä, mitkä tekijät vaikuttavat yritysjohtajien palkkaan. Toivot, että tämä auttaisi sinua tulevaisuudessa löytämään paremmin kovapalkkaiset kandidaatit. Pohdit myös, pystyisikö mallisi rankkaamaan yritysjohtajat oikein palkan mukaan. Päätät palata vielä joskus asiaan paremmalla ajalla.

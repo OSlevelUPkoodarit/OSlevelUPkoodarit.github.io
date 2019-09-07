@@ -13,7 +13,7 @@ import matplotlib as mp
 import scipy
 ```
 
-![Data Science Picture](../../../css/download.png)
+![Data Science Picture](../../../images/download.png)
 
 Data sciencen yksi kivijaloista on tilastotiede ja sen menetelmät. Tarkoitus on tässä 1. workshopissa kerrata muutamia keskeisiä käsitteitä, ja syventää varsinaista menetelmäosaamista myöhemmissä sessioissa. 
 
@@ -87,11 +87,11 @@ Mittaa ilmiötä absoluuttisesta nollasta (voidaan nähdä myös erikoistapaukse
 
 Esimerkkejä?
 
-![Data Table](../../../css/download.jpeg)
+![Data Table](../../../images/download.jpeg)
 
-![Data%20types%20summary.png](../../../css/download1.png)
+![Data%20types%20summary.png](../../../images/download1.png)
 
-![Data%20types%20and%20significance%20tests.png](../../../css/download2.png)
+![Data%20types%20and%20significance%20tests.png](../../../images/download2.png)
 
 ###### *Keskiarvo*, *mediaani*, *moodi*
 
@@ -202,11 +202,11 @@ Desiilit ovat täysien 10-prosenttien mukaan määräytyvät kohdat:
 - D2 = 20% -piste jne. 
 
 
-![Percentile%20example.png](../../../css/download3.png)
+![Percentile%20example.png](../../../images/download3.png)
 
-![how-to-understand-score-percentiles-3211610-v3-5b72dbb4c9e77c0050bec9bc.png](../../../css/download4.png)
+![how-to-understand-score-percentiles-3211610-v3-5b72dbb4c9e77c0050bec9bc.png](../../../images/download4.png)
 
-![household-income-percentile-deciles-2015-e1480577710241.png](../../../css/download5.png)
+![household-income-percentile-deciles-2015-e1480577710241.png](../../../images/download5.png)
 
 
 ```python
@@ -241,7 +241,7 @@ Varianssi ja keskihajonta ovat ns. hajontalukuja, jotka saavat sitä suuremmat a
 
 Varianssi
 
-![Formula-variance.png](../../../css/download6.png)
+![Formula-variance.png](../../../images/download6.png)
 
 Arvon poikkeamaa keskiarvosta mitataan arvon ja keskiarvon erotuksen neliöllä (toinen potenssi). Erotuksen neliöistä lasketaan keskiarvo. 
 
@@ -273,9 +273,9 @@ np.std(arvosanat)
 
 ###### Normaalijakauma
 
-![Screen%20Shot%202018-10-03%20at%2020.27.38.png](../../../css/download7.png)
+![Screen%20Shot%202018-10-03%20at%2020.27.38.png](../../../images/download7.png)
 
-![Screen%20Shot%202018-10-03%20at%2020.28.42.png](../../../css/download8.png)
+![Screen%20Shot%202018-10-03%20at%2020.28.42.png](../../../images/download8.png)
 
 Mikäli muuttujan arvot ovat normaalijakautuneita, niin tällöin suurin osa havaintoja on lähellä keskiarvoja, ja mitä kauempana keskiarvosta tulos on, sitä epätodennäköisempää on muuttujan arvojen sijoittuminen e.m. "paikkaan"
 
@@ -293,4 +293,4 @@ Normaalijakaumaan liittyy kaksi olennaista arvoa, keskiarvo ja keskihajonta. Kes
 
 
 
-![Screen%20Shot%202018-10-03%20at%2020.44.54.png](../../../css/download9.png)
+![Screen%20Shot%202018-10-03%20at%2020.44.54.png](../../../images/download9.png)

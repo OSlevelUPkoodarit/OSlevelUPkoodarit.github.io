@@ -68,7 +68,7 @@ plt.show()
 ```
 
 
-![plot](../../../css/output_5_0.png)
+![plot](../../../images/output_5_0.png)
 
 
 Ikädata näyttää melko normaalisti jakautuneelta. Helppo ratkaisu lisätä puuttuvat arvot on esimerkiksi korvata ne keskiarvolla tai mediaanilla, jotka tässä tapauksessa ovat siis melko samat. Valitaan näistä keskiarvo ja korvataan kaikki puuttuvat arvot sillä *fillna*-funktion avulla:
