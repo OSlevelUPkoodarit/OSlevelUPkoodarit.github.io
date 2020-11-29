@@ -38,7 +38,7 @@ heading_anchors: true
 
 
 # Build settings
-theme: "just-the-docs"
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
