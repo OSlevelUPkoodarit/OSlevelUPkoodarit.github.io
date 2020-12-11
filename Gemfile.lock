@@ -1,9 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.2.22.5)
-      i18n (~> 0.6, >= 0.6.4)
-      multi_json (~> 1.0)
+    activesupport (6.0.3.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
@@ -198,8 +201,8 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    just-the-docs (0.2.9)
-      jekyll (>= 3.8.5, < 4.1.0)
+    just-the-docs (0.3.3)
+      jekyll (>= 3.8.5)
       jekyll-seo-tag (~> 2.0)
       rake (>= 12.3.1, < 13.1.0)
     kramdown (2.3.0)
@@ -216,7 +219,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    multi_json (1.15.0)
+    minitest (5.14.2)
     multipart-post (2.1.1)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -254,10 +257,12 @@ GEM
       unf (~> 0.1.4)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (2.0.3)
-      concurrent-ruby (~> 1.0)
+    tzinfo (1.2.8)
+      thread_safe (~> 0.1)
     tzinfo-data (1.2020.4)
       tzinfo (>= 1.0.0)
     unf (0.1.4)
@@ -267,6 +272,8 @@ GEM
     unf_ext (0.0.7.7-x64-mingw32)
     unf_ext (0.0.7.7-x86-mingw32)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   java
@@ -277,9 +284,12 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (~> 0.6)
-  just-the-docs (~> 0.2.3)
+  jekyll-feed (~> 0.12)
+  just-the-docs
+  minima (~> 2.5)
+  tzinfo (~> 1.2)
   tzinfo-data
+  wdm (~> 0.1.1)
 
 BUNDLED WITH
    2.1.4
