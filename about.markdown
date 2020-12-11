@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+nav_order: 1
 ---
 
 ![](/assets/oslevel.png "LevelUP Koodarit banneri")
