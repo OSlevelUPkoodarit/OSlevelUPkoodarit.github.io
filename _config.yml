@@ -32,16 +32,6 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
-# Aux links for the upper right navigation
-aux_links:
-  "OSlevelUPKoodarit on GitHub":
-    - "//github.com/OSlevelUPkoodarit/OSlevelUPkoodarit.github.io"
-    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
