@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+nav_exclude: true
 ---
 
 ![](/assets/oslevel.png "LevelUP Koodarit banneri")
