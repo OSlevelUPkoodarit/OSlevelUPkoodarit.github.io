@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
+  "OS LevelUP Koodarit on GitHub":
     - "//github.com/OSlevelUPkoodarit/OSlevelUPkoodarit.github.io"
 
 # Exclude from processing.
