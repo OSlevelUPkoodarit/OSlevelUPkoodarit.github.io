@@ -22,7 +22,7 @@ title: OS LevelUP Koodarit
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   This site is created for having a place for education material and links.
-baseurl: "OSlevelUPkoodarit.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  OSlevelUPkoodarit
@@ -31,7 +31,10 @@ github_username:  OSlevelUPkoodarit
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
-
+# Aux links for the upper right navigation
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/OSlevelUPkoodarit/OSlevelUPkoodarit.github.io"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
