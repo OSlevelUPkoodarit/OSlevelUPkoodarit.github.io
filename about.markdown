@@ -4,7 +4,7 @@ title: About
 nav_order: 1
 ---
 
-![](/assets/oslevel.png "LevelUP Koodarit banneri")
+![png](/assets/oslevel.png "LevelUP Koodarit banneri")
 # About us
 
  This site is created for having a place for education material and links.  
