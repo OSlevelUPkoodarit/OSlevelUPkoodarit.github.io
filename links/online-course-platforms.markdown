@@ -2,7 +2,6 @@
 layout: default
 title: Online Course Platforms
 parent: Links
-nav_order: 2
 ---
 
 # Online Course Platforms in English and Finnish
