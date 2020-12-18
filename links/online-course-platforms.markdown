@@ -3,6 +3,7 @@ layout: default
 title: Online Course Platforms
 parent: Links
 ---
+![png](/assets/banner1.png "Laptop and books.")
 
 # Online Course Platforms in English and Finnish
 
