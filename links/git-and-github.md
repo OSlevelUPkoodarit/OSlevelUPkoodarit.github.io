@@ -22,7 +22,7 @@ parent: Links
 ### [Book about Git](https://git-scm.com/book/en/v2)
 "The entire Pro Git book, written by Scott Chacon and Ben Straub and published by Apress."
 
-### [Hyvänen aika, Git!?! (siistimpi versio kieleltään)](https://dangitgit.com/fi) [Voi v*ttu, Git!?! (rumempi versio kieleltään)](https://ohshitgit.com/fi)
+### [Hyvänen aika, Git!?!](https://dangitgit.com/fi) [Voi v*ttu, Git!?!](https://ohshitgit.com/fi)
 "Git on vaikea ohjelma: mokaaminen on helppoa, ja sen keksiminen miten virheet korjataan, on suorastaan mahdotonta. Git:in dokumentaatioon turvautuminen on varsinainen muna-kana-ongelma: et voi hakea korjausta sotkuusi ellet tiedä jo tiedä sitä termiä jota olet etsimässä jotta saat ongelmasi ratkaistua."
 
 ---
