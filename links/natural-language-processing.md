@@ -33,11 +33,11 @@ d) Build a chatbot using a Reformer model.
 ## [FITECH: Artificial intelligence: Concepts, challenges, and opportunities](https://fitech.io/fi/opinnot/artificial-intelligence-concepts-challenges-and-opportunities/)
 After completing the course, the student is able to:
 
-    Define and explain various artificial intelligence (AI) concepts, challenges, and opportunities: e.g., problem-solving, knowledge representation, machine learning, decision-making, natural language processing, and expert systems.
-    Explain fundamental algorithms and the related mathematical and programming concepts of AI.
-    List applications of AI in various fields.
-    Use AI software or tools for specific purposes.
-    Recognize ethical problems related to AI and to suggest constructive solutions to those.
+Define and explain various artificial intelligence (AI) concepts, challenges, and opportunities: e.g., problem-solving, knowledge representation, machine learning, decision-making, natural language processing, and expert systems.
+Explain fundamental algorithms and the related mathematical and programming concepts of AI.
+List applications of AI in various fields.
+Use AI software or tools for specific purposes.
+Recognize ethical problems related to AI and to suggest constructive solutions to those.
 
 
 ## [UNIVERSITY OF HELSINKI: Master's Programme in Linguistic Diversity and Digital Humanities](https://www.helsinki.fi/en/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme)
