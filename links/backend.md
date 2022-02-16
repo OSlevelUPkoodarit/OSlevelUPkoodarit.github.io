@@ -16,3 +16,10 @@ All the app data is stored and processed on the back-end. Back-end development i
 
 ## [Intro to Backend](https://www.udacity.com/course/intro-to-backend--ud171)
 "This course presents an overview of a variety of Web backend topics: handling user input, producing templated output, storing information in databases and data stores, and building systems with secure user accounts."
+
+---
+
+## SQL
+
+### [SQLBolt - Introduction to SQL ](https://sqlbolt.com/)
+"Welcome to SQLBolt, a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser."
