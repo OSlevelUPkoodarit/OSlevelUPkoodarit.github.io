@@ -4,7 +4,7 @@ title: Front-end
 parent: Links
 ---
 
-# Front-end (HTML, CSS and JavaScript)
+# Front-end (HTML, CSS, JavaScript, React)
 
 ## [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
 "This is a guide that everyone can use to learn about the practice of front-end development. It broadly outlines and discusses the practice of front-end engineering: how to learn it and what tools are used when practicing it."
@@ -61,6 +61,10 @@ CSS rules are explained using Batman and other characters from Gotham City.
 
 ## JavaScript
 
+### [Learn JavaScript ](https://learnjavascript.online/)
+"The easiest way to  learn  &  practice  modern JavaScript. Learn in an interactive environment. Read short lessons, take notes, and complete challenges directly in your browser.
+Try the first 77 lessons, challenges, projects (first 7 chapters) & flashcards for free. You can upgrade to a Pro account with a one-time payment that gives you access for 5 years."
+
 ### [You Don't Know JS Yet (book series) ](https://github.com/getify/You-Dont-Know-JS)
 "This is a series of books diving deep into the core mechanisms of the JavaScript language."
 
@@ -72,3 +76,10 @@ CSS rules are explained using Batman and other characters from Gotham City.
 
 ### [Javascript Essentials](https://www.udemy.com/course/javascript-essentials/)
 "Learn how Javascript works, some basic API's and finally create a mini project. "
+
+---
+
+## React
+
+### [React Tutorial](https://react-tutorial.app/)
+"Learn in an interactive environment. Understand how React works not just how to build with React. Try the first 67 lessons, challenges & flashcards for free. You can upgrade to a Pro account with a one-time payment that gives you access for 5 years."
