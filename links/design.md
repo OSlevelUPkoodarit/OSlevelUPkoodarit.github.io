@@ -49,3 +49,8 @@ Font Mfizz provides scalable vector icons representing programming languages, op
 ## Patterns
 
 ### [Transparent Textures](https://www.transparenttextures.com/)
+
+## User Interface Design (UI)
+
+### [UI Patterns](https://ui-patterns.com/)
+User Interface Design patterns are recurring solutions that solve common design problems. Design patterns are standard reference points for the experienced user interface designer. 
